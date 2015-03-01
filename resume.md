@@ -1,8 +1,7 @@
 Shuhai Shen
 ===============
 
-[Resume](https://sumhat.github.io)
-[Blog](https://leonax.net)
+[This Resume](https://sumhat.github.io) | [Blog](https://leonax.net)
 
 Status
 ---------
@@ -14,13 +13,13 @@ Status
 Work Experience
 ---------------
 
-*   **Google Switzerland GmbH** (Zürich, Switzerland)
+*   **Google** (Zürich, Switzerland)
 
     Software Engineer in Test, 2012 - Present
 
     -   TBA
 
-*   **Microsoft China** (Shanghai, China)
+*   **Microsoft** (Shanghai, China)
 
     Software Development Engineer in Test, 2007 - 2012
 
@@ -32,5 +31,4 @@ Education
 *   **Shanghai University** (Shanghai, China)
 
     B.S. in Submodules, July 2012
-
 
