@@ -6,7 +6,7 @@ Shuhai Shen
 Status
 ---------
 
-I am very statisfied with my current job. Unless there is a super attractive offer (e.g., base pay > $200,000 / year), I am not considering a change.
+I am very statisfied with my current job, and **NOT** considering for a change, unless there is a super attractive offer (e.g., base pay > $200,000 / year).
 
 Work Experience
 ---------------
