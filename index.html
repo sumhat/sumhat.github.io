@@ -12,8 +12,26 @@
     <div id="main"></div>
     <script>
       jQuery(function() {
-        jQuery('#main')
-            .html(marked('# Marked in browser\n\nRendered by **marked**.'));
+        jQuery.ajax({
+          url: '/resume.md',
+          type: 'GET',
+          tryCount: 0,
+          retryLimit: 3,
+          xhrFields: {
+            withCredentials: true
+          },
+          error: function(xhr, textStatus, errorThrown ) {
+            this.tryCount++;
+            if (this.tryCount < this.retryLimit) {
+              // Try again
+              jQuery.ajax(this);
+              return;
+            }            
+          },
+          success: function(data, status, xhr) {
+            jQuery('#main').html(marked(data));
+          }
+        });
       });
     </script>
   </body>
