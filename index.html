@@ -1,8 +1,20 @@
 <html>
   <head>
-    <title>Test Homepage</title>
+    <title>Shuhai Shen</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/css/bootstrap-theme.min.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/marked/lib/marked.js"></script>
+    <script src="/app.js"></script>
   </head>
   <body>
-    Initial version.
+    <div id="main"></div>
+    <script>
+      jQuery(function() {
+        jQuery('#main')
+            .html(marked('# Marked in browser\n\nRendered by **marked**.'));
+      });
+    </script>
   </body>
 </html>
